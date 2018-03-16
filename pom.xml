@@ -18,6 +18,11 @@
     <version>4.12</version>
     <scope>test</scope>
 </dependency>
+      <dependency>
+  <groupId>com.example.maven</groupId>
+  <artifactId>ExampleApp</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+      </dependency>
   </dependencies>
   <build>
     <sourceDirectory>src</sourceDirectory>
