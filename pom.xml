@@ -22,7 +22,7 @@
   <groupId>com.example.maven</groupId>
   <artifactId>ExampleApp</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <type>jar</type>
+  <systemPath>${user.home}/.m2/repository/com/example/maven/ExampleApp/0.0.1-SNAPSHOT/ExampleApp-0.0.1-SNAPSHOT.jar</systemPath>
       </dependency>
   </dependencies>
   <build>
