@@ -11,6 +11,12 @@
     <jstl.version>1.2</jstl.version>
     <junit.version>4.11</junit.version>
   </properties>
+     <repositories>
+      <repository>
+         <id>ExampleApp</id>
+         <url>../ExampleApp</url>
+      </repository>
+   </repositories>
   <dependencies>
       <dependency>
     <groupId>junit</groupId>
@@ -18,12 +24,11 @@
     <version>4.12</version>
     <scope>test</scope>
 </dependency>
-      <dependency>
+<!--       <dependency>
   <groupId>com.example.maven</groupId>
   <artifactId>ExampleApp</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <systemPath>${user.home}/.m2/repository/com/example/maven/ExampleApp/0.0.1-SNAPSHOT/ExampleApp-0.0.1-SNAPSHOT.jar</systemPath>
-      </dependency>
+      </dependency> -->
   </dependencies>
   <build>
     <sourceDirectory>src</sourceDirectory>
