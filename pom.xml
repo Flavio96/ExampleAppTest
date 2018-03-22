@@ -11,12 +11,6 @@
     <jstl.version>1.2</jstl.version>
     <junit.version>4.11</junit.version>
   </properties>
-     <repositories>
-      <repository>
-         <id>ExampleApp</id>
-         <url>../ExampleApp</url>
-      </repository>
-   </repositories>
   <dependencies>
       <dependency>
     <groupId>junit</groupId>
