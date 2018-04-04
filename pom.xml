@@ -4,18 +4,6 @@
   <artifactId>ExampleAppTest</artifactId>
   <packaging>jar</packaging>
   <version>0.0.1-SNAPSHOT</version>
-  <repositories>
-  <repository>
-    <id>com.springsource.repository.bundles.release</id>
-    <name>SpringSource Enterprise Bundle Repository - SpringSource Bundle Releases</name>
-    <url>http://repository.springsource.com/maven/bundles/release</url>
-</repository>
-<repository>
-    <id>com.springsource.repository.bundles.external</id>
-    <name>SpringSource Enterprise Bundle Repository - External Bundle Releases</name>
-    <url>http://repository.springsource.com/maven/bundles/external</url>
-</repository>
-</repositories>
   <dependencies>
       <dependency>
 	    <groupId>junit</groupId>
@@ -23,12 +11,12 @@
 	    <version>4.12</version>
 	    <scope>test</scope>
 	  </dependency>
-	  <dependency>
+<!-- 	  <dependency>
 			<groupId>com.example.maven</groupId>
 			<artifactId>ExampleApp</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 			<scope>compile</scope>
-		</dependency>
+		</dependency> -->
   </dependencies>
   <!-- <build>
     <sourceDirectory>src</sourceDirectory>
