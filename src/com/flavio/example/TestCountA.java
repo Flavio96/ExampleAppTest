@@ -9,7 +9,7 @@ public class TestCountA {
 	@Test
 	public void testCountA() {
 		CountA test = new CountA();
-		int actual = test.countA("alphabet");
+		int actual = test.countA("alphabeta");
 		int expected = 2;
 		assertEquals("alphabet has 2 a", expected, actual);
 	}
